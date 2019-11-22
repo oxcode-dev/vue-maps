@@ -92,24 +92,19 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .map {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding: 0;
-  overflow: hidden;
-
-  &::before {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.map::before {
     display: block;
     content: "";
-  }
-
-  .map-item,
-  iframe,
-  embed,
-  object,
-  video {
+}
+.map .map-item, .map iframe, .map embed, .map object, .map video {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -117,31 +112,18 @@
     width: 100%;
     height: 100%;
     border: 0;
-  }
 }
-
-.map-21by9 {
-  &::before {
-    padding-top: percentage(9 / 21);
-  }
+.map-21by9::before {
+    padding-top: 42.8571428571%;
 }
-
-.map-16by9 {
-  &::before {
-    padding-top: percentage(9 / 16);
-  }
+.map-16by9::before {
+    padding-top: 56.25%;
 }
-
-.map-4by3 {
-  &::before {
-    padding-top: percentage(3 / 4);
-  }
+.map-4by3::before {
+    padding-top: 75%;
 }
-
-.map-1by1 {
-  &::before {
-    padding-top: percentage(1 / 1);
-  }
+.map-1by1::before {
+    padding-top: 100%;
 }
 
 </style>

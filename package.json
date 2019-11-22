@@ -28,5 +28,8 @@
     "cross-env": "^6.0.3",
     "laravel-mix": "^5.0.0",
     "google-maps-api-loader": "^1.1.1"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.10"
   }
 }
