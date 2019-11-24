@@ -1,6 +1,6 @@
 {
   "name": "vue-maps",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue maps is a vue component for Google Map and more to come",
   "main": "dist/index.js",
   "repository": {
