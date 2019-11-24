@@ -72,17 +72,11 @@ For Google Maps Usage
 | Props | Type | Description |
 | ----------- | ----------- |----------- |
 | latitude | Float/Integer | Latitude is a measurement on a globe or map of location north or south of the Equator.|
-| ----------- | ----------- |----------- |
 | longitude | Float/Integer | Latitude is a measurement on a globe or map of location east or west of the Equator.|
-| ----------- | ----------- |----------- |
 | zoom | Integer | The maximum zoom level found at the given LatLng. `Default: 10`|
-| ----------- | ----------- |----------- |
 | apiKey | String | Generated on google developers website.|
-| ----------- | ----------- |----------- |
 | with-marker | Boolean | Willing to show marker(s) on Google map. `Default:true`|
-| ----------- | ----------- |----------- |
 | locations | Array | Latitude, Longitude and title of the address(es) you want to show on the map as marker|
-| ----------- | ----------- |----------- |
 
 
 ### Dependency
